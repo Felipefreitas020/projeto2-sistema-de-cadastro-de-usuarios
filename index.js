@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")();
 const Usuario = require("./class/Usuario")
 
 
@@ -38,6 +39,7 @@ while (true) {
 for (let u of usuarios) {
   u.mostrarDados()
 }
+
 
 
 Usuario.contarUsuarios()
